@@ -1,0 +1,7 @@
+.empty{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 8rem;
+    margin: 40px;
+}

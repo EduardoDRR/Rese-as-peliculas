@@ -1,0 +1,35 @@
+.searchContainer{
+    display: flex;
+    justify-content: center;    
+}
+
+.searchBox{
+    position: relative;
+}
+
+.searchInput{
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px 30px 5px 10px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.searchButton{
+    position: absolute;
+    right: 8px;
+    top: 0;
+    height: 100%;
+}
+
+.searchInput:focus {
+    outline:none ;
+    border: 1px solid hsl(62, 99%, 50%);
+    box-shadow:  0 0 5px #ebeabe; 
+}
+
+.searchButton :focus {
+    outline:none ;
+    border: 1px solid hsl(62, 99%, 50%);
+    box-shadow:  0 0 5px #ebeabe;
+}

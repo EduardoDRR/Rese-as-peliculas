@@ -1,0 +1,30 @@
+.movieCard{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.movieCard:hover{
+    opacity: 0.6;
+}
+
+.movieImage{
+    border-radius: 10px;
+    background-color: azure;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.movieImage:hover{
+    transform: translateY(-25px);
+}
+
+@media (max-width:560px){
+    .movieImage{
+        width:90%;
+        height: auto;
+    }
+}
+
+.movieTitulo{
+    text-align: center;
+    align-items: center;
+}
